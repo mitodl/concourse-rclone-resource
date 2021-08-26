@@ -2,7 +2,7 @@ FROM alpine:3.11
 
 LABEL maintainer="Drew Short <warrick@sothr.com>"
 
-ARG rclone_version=v1.50.2
+ARG rclone_version=v1.56.0
 ARG rclone_arch=amd64
 
 RUN apk update \
